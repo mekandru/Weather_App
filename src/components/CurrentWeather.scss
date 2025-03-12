@@ -1,0 +1,33 @@
+.current-weather{
+    display: flex;
+    &_content{
+        margin-top:1em;
+        width:300px;
+        height:460px;
+        background-color: rgb(226, 226, 231);
+        //display: flex;
+        //align-items:center;
+        
+    }
+    &_name{
+        font-size: larger;
+        padding-top:40px;
+    }
+    &_temp{
+        //padding: 30px;
+        font-size: large;
+    }
+  
+
+    &_mintemp, &_maxtemp{
+       
+        font-size: medium;
+    }
+    &_description{
+        //padding-top:0px ;
+        font-size: large;
+    }
+
+   
+
+}

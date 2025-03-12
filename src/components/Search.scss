@@ -1,0 +1,22 @@
+.search-bar{   
+    width:50%;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-bottom: 15px;
+
+    &_form{
+        display: flex;      
+    }
+
+    &_button,&_input{
+        background:transparent;
+        border:1px solid black;
+    }
+
+
+    &_input{
+        height:30px;
+        width:450px;
+    }
+}
+

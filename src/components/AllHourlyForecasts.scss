@@ -1,0 +1,39 @@
+.all-forecast{
+    display:block;
+    background-color: rgb(226, 226, 231);
+    //padding: 5px;
+    &-title{
+     // position: absolute;
+     padding-top: 10px;
+     padding-left: 10px;
+    // padding-bottom: 0px;;
+        text-align: left;
+    }
+
+    &-items{
+        padding-top: 0px;
+        padding: 6px;
+        display: flex;
+        //overflow-x: scroll;
+    }
+
+        &-item{
+           // border-right:1px solid  rgb(94, 89, 89);
+        //to remove the last border line
+       //     &:last-of-type{
+            //    border-right: 0px;
+           // }
+           margin: 3rem;
+        
+
+        &_hour{
+            font-size: large;
+        }
+        &_temp{
+            font-size: small;
+        }
+        &_description{
+            font-size: large;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.daily-forecast{
+    display:block;
+   
+
+    &-items{       
+        display: flex;
+        //overflow-x: scroll;
+        //padding-top: 0px;
+        //padding: 6px;
+    }
+
+        &-item{
+            width:300px;
+            height:530px;
+         &_color
+         {
+            padding: 1em;
+            background-color: rgb(226, 226, 231);
+         }
+            padding: 1em;
+            &_day{
+                font-size: larger;
+            }
+            &_date{
+                font-size: large;
+            }
+            &_mintemp{
+                font-size: large;
+            }
+            &_maxtemp{
+                font-size: large;
+            }
+            &_description{
+                font-size: large;
+            }
+    }
+}
